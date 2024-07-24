@@ -41,12 +41,14 @@ function App() {
     <div className='main'>
       < ProgressBar progress={progress}/>
       <div>
-        <button 
-        style={ btnstyle }
-        onClick={increaseProgress} onBlur={buttonBlur} onFocus={buttonFocused} onMouseOver={buttonHovered} onMouseLeave={buttonUnhovered}>Increase</button>
         <button
         style={ btnstyle }
-        onClick={decreaseProgress} onBlur={buttonBlur} onFocus={buttonFocused} onMouseOver={buttonHovered} onMouseLeave={buttonUnhovered}>Decrease</button>
+        onClick={decreaseProgress} onBlur={buttonBlur} onFocus={buttonFocused} onMouseOver={buttonHovered} onMouseLeave={buttonUnhovered}>Decrease
+        </button>
+        <button 
+        style={ btnstyle }
+        onClick={increaseProgress} onBlur={buttonBlur} onFocus={buttonFocused} onMouseOver={buttonHovered} onMouseLeave={buttonUnhovered}>Increase
+        </button>
       </div>
     </div>
   );
